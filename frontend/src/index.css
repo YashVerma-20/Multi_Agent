@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #F9F9F8;
+  --color-surface: #FFFFFF;
+  --color-textMain: #111827;
+  --color-textMuted: #6B7280;
+  --color-border: #E5E7EB;
+  --color-accent: #D3A29D;
+  --color-dark-bg: #0f172a;
+  --color-dark-border: #1e293b;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.markdown-content svg {
+    max-width: 32px !important;
+    max-height: 32px !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline-block !important;
+}

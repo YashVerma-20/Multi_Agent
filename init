@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+google-generativeai
+groq
+python-dotenv
+httpx
+pydantic
+sqlalchemy
+aiosqlite
+antigravity

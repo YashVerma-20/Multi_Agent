@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+groq
+python-dotenv
+httpx
+pydantic
+sqlalchemy
+aiosqlite
+antigravity
+google-generativeai==0.8.0
