@@ -12,6 +12,7 @@ Meta-Agent OS is a sophisticated, full-stack AI orchestration platform designed 
 - **Routing**: 
   - Uses **Groq (Llama-3.1-8b)** for rapid user intent classification.
   - Dynamically routes requests to specific system prompts based on category.
+  - LangGraph for multi-agent routing.
 - **AI Models**: 
   - **Primary**: Google Gemini 1.5 Flash (via `google-generativeai` SDK).
   - **Fallback**: Groq Llama-3.1 if Gemini fails or for specific data tasks.
